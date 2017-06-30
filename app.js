@@ -19,7 +19,7 @@ const app = express();
 const users = require('./routes/users');
 
 // Port #
-const port = 3000;
+app.set('port', (process.env.PORT || 5000));
 
 // Incase CROSS SITE TO BE ENABLED
 app.use(cors());
@@ -44,4 +44,6 @@ app.all('*', (req, res) => {
     res.sendfile(__dirname + '/public/index.html');
 });
 
-app.listen(port, () => { console.log("Magic is happening on port " + port); });
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
+});
