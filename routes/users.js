@@ -1,7 +1,9 @@
 /**
  * Created by ulhaq on 5/15/2017.
  */
+"use strict";
 const express = require('express');
+
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
 const router = express.Router();

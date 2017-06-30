@@ -1,6 +1,7 @@
 /**
  * Created by ulhaq on 5/18/2017.
  */
+"use strict";
 const mongose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const config = require('../config/db');
