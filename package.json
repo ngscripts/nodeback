@@ -1,0 +1,29 @@
+{
+  "name": "nodeback",
+  "version": "1.0.0",
+  "description": "Testing how to use NODEJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Ulhaq Anwaar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "4.5.0"
+  }
+}
