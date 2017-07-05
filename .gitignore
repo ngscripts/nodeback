@@ -1,4 +1,5 @@
 # Node build artifacts
 node_modules
+frontent
 npm-debug.log
 .idea
